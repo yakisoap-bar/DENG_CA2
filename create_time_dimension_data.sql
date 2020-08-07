@@ -2,12 +2,12 @@ use CarSalesDWTeamE;
 
 -- use CarSalesTeamE;
 -- go
--- select min(paymentDate), max(paymentDate) from Payments;
+-- select min(orderDate), max(orderDate) from Orders;
 -- go 
 -- use CarSalesDWTeamE;
 
-declare @StartDate datetime = '20030116'
-declare @EndDate datetime = '20050625'
+declare @StartDate datetime = '20030106'
+declare @EndDate datetime = '20050531'
 
 DECLARE @curDate DATE
 DECLARE @FirstDayMonth DATE
